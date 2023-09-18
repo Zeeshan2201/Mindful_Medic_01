@@ -1,0 +1,4 @@
+project(':build.gradle.kts').projectDir = new File(rootDir, 'loginsqlite/build.gradle.kts')
+include ':build.gradle.kts'
+include ':myapplication'
+include ':app'
